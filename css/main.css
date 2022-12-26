@@ -1,0 +1,108 @@
+/* #dc3d24
+#232b2b */
+
+/* Resetter */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: calibri, sans-serif;
+}
+
+/* general style */
+.container {
+    width: 1025px;
+    margin: 0 auto;
+
+}
+h1,h2,h3,h4{
+    font-weight: 100;
+}
+p{
+    line-height: 1.5 em;
+}
+
+/* page style */
+
+header{
+    background-color: #232b2b;
+    border-bottom: 20px solid #dc3d24;
+    height: 100px;
+    color: #fff;
+}
+    header h2{
+        float: left;
+        line-height: 80px;
+    }
+    header nav{
+        float: right;
+    }
+    header nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        width: 125px;
+        height: 100px;
+        line-height: 80px;
+        margin-left: 10px;
+        background-color: #dc3d24;
+        text-align: center;
+        border-bottom: 20px solid #dc3d24;
+    }
+        header nav ul li:hover{
+            background-color: #c53620;
+            border-bottom: 20px solid #d45744;
+            font-weight: bold;
+        }
+    header nav ul li a{
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+    }
+
+main{
+    overflow: auto;
+    padding: 30px 0;
+}
+    main section{
+        width: 600px;
+        float: left;
+        color: #666;
+    }
+        main section h1{
+            margin-bottom:10px;
+        }
+        main section h2{
+            border-top: 3px solid #dc3d24;
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+        main section article{
+            font-size: smaller;
+            border-left: 3px dotted #888;
+            color: #888;
+            padding-left: 10px;
+        }
+            main section article h2{
+                border-top: none;
+            }
+    main aside{
+        background-color: #232b2b;
+        border-top: 20px solid #dc3d24;
+        color: #fff;
+        width: 390px;
+        float: right;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+        main aside h4{
+            margin-bottom: 10px;
+        }
+footer{
+    border-top: 20px solid #dc3d24;
+    background-color: #232b2b;
+    text-align: center;
+    height: 100px;
+    line-height: 80px;
+    color: #fff;
+}
